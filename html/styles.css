@@ -1,0 +1,55 @@
+
+
+
+
+
+/*p, h5, h6 {
+    font-size: 20px;
+    font-family:Arial;
+    text-align:center;
+    font-weight: bold;
+
+}
+
+
+p {
+    color:blue;
+
+}
+
+h5 {
+    color:brown;
+}
+
+h6 {
+    color:red;
+
+}
+
+body {
+*/
+body {
+    background: lightblue;
+}
+
+.card {
+    background: white;
+    padding:20 px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0 , 0, 0 , 0.2);
+}
+
+    .custom-button {
+        background-color: #5e7bdb;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    
+    }
+
+    
+    
+    
+ 
