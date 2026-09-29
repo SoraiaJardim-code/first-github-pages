@@ -24,3 +24,18 @@
     text-align: center;
     color: white;
 }
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap;
+
+}
+
+.card {
+    flex: 1;
+    win-width: 250px;
+    padding: 20px;
+    background: #667eea;
+    border-radius: 8px;
+}
