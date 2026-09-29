@@ -11,3 +11,16 @@
     gap: 20px;
     list-style: none;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+}
