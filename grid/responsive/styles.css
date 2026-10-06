@@ -46,13 +46,6 @@ aside {
     color: white;
 }
 
-@media (min-width: 768px) {
-    display:grid;
-    
-}
-
-
-
 /* Setup layout columns for larger screens*/
 @media (min-width: 768px) {
     .content-wrapper {
