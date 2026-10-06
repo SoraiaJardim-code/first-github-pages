@@ -41,6 +41,18 @@ aside {
     color: white;
 }
 
+.footer {
+    background: #1a252f;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    display:grid;
+    
+}
+
+
+
 /* Setup layout columns for larger screens*/
 @media (min-width: 768px) {
     .content-wrapper {
@@ -62,10 +74,22 @@ aside {
 }
 
 /* Tablet and above (768px) */
+@media (min-width: 768px) {
+
+
 .element {
     font-size: 16px;
     padding: 20px;
     background-color: #2ecc71;
 }
 
+}
 
+/* Desktop (1024px) */
+@media (min-width: 1024px) {
+    .element {
+        font-size: 18px;
+        padding: 30px;
+        background-color: #9b59b6;
+    }
+}
