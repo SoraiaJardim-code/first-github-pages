@@ -49,3 +49,23 @@ aside {
         gap: 15px;
     }
 }
+
+/* - - - Responsive CSS - - - */
+
+/* Mobile first - base styles (0-767px) */
+.element {
+    font-size: 14px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 6px;
+}
+
+/* Tablet and above (768px) */
+.element {
+    font-size: 16px;
+    padding: 20px;
+    background-color: #2ecc71;
+}
+
+
