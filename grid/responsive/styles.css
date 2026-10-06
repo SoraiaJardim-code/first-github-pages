@@ -25,3 +25,27 @@ header, nav, main, aside, footer {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     text-align: center;
 }
+
+header {
+    background: #2c3e50;
+    color: white;
+}
+
+nav {
+    background: #34495e;
+    color: white;
+}
+
+aside {
+    background:#1a252f;
+    color: white;
+}
+
+/* Setup layout columns for larger screens*/
+@media (min-width: 768px) {
+    .content-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1f;
+        gap: 15px;
+    }
+}
