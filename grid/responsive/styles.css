@@ -45,7 +45,7 @@ aside {
 @media (min-width: 768px) {
     .content-wrapper {
         display: grid;
-        grid-template-columns: 2fr 1f;
+        grid-template-columns: 2fr 1fr;
         gap: 15px;
     }
 }
