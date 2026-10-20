@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* :hover and :active examples */
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+
+}
+
+.btn:active {
+    background-color: #1f618d;
+    transform: scale(0.95);
+}
+
+/* :focus Example */
+.input-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.2 ease;
+
+}
+
+.input-field:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(47, 206, 217, 0.5);
+}
+
+/* :visited Example */
+.demo-link {
+    color: #3498db;
+}
+
+.demo-link:hover {
+    color: #ff6600;
+}
+
+.demo-link:visited {
+    color: #16c21f;
+}
+
+.quote {
+    font-size: 20px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.quote::before {
+    content: "''";
+    font-size: 30px;
+    color: #e74c3c;
+}
+
+.article-text {
+    width: 320px;
+    line-height: 1.6;
+}
+
+.article-text::first-letter {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2980b9;
+    float: left;
+    margin-right: 6px;
+    line-height: 1;
+
+}
+
+.article-text::first-line {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #34495e;
+}
+
