@@ -56,3 +56,15 @@ let student = {
 }
 console.log(student);
 console.log(student.country);
+
+//Conversions
+let weight = "60";
+let weightInt = parseInt(weightString);
+
+console.log(weightInt);
+console.log(heightFloat);
+
+let day = 3;
+let dayString = day.toString();
+console.log(day);
+console.log(dayString + 4);
