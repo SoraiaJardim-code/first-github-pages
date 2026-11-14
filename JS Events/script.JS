@@ -1,7 +1,10 @@
 function changeText() {
     let element = document.getElementById("message");
     element.innerHTML = "Clicked from JavaScript";
-    window.confirm("Do you want to continue?");
+    window.alert();
+    if (response) {
+        element.innerHTML = "Clicked OK";
+    }
 }
 
 
